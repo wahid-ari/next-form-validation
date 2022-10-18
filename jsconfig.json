@@ -1,0 +1,15 @@
+{
+	"compilerOptions": {
+		"baseUrl": "./",
+		"paths": {
+			"@public/*": ["public/*"],
+			"@components/*": ["components/*"],
+			"@styles/*": ["styles/*"],
+			"@utils/*": ["utils/*"],
+			"@pages/*": ["pages/*"],
+			"@validations/*": ["validations/*"]
+		}
+	},
+	"include": ["./jest.setup.js"],
+	"exclude": ["node_modules"]
+}
