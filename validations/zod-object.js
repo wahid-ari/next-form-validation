@@ -4,7 +4,7 @@ const formSchema = z.object({
   name: z
     .string({ message: "Name must be string" })
     .min(1, { message: "Name is required" })
-    .regex(/^[a-zA-Z ]*$/, { message: "Name is required" }),
+    .regex(/^[a-zA-Z ]*$/, { message: "Name must be alphabet" }),
   username: z
     .string({ message: "Username must be string" })
     .min(1, { message: "Username is required" })
